@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <img
+        src="./Naver_Logotype.svg.png"
+        alt="naverlogo"
+        style="width: 94px;"
+      />
+    </div>
+    <div>
+      <label>실명 인증된 아이디로 가입</label>
+      <input type="checkbox" name="checkid" />
+    </div>
+    <div>
+      <div>
+        <img src="./20240119_172735.png" alt="usericon" />
+        <input type="text" placeholder="아이디" />
+        <input type="text" value="@naver.com" readonly />
+      </div>
+      <div>
+        <img src="./20240119_172758.png" alt="passwordicon" />
+        <input type="password" placeholder="비밀번호" />
+        <img src="./20240119_173134.png" alt="visiableicon" />
+      </div>
+      <div>
+        <img src="./20240119_172816.png" alt="emailicon" />
+        <input
+          type="email"
+          name="email"
+          placeholder="[선택] 이메일주소 (비밀번호 찾기 등 본인 확인용)"
+        />
+      </div>
+    </div>
+    <div>
+      <div>
+        <img src="./20240119_172735.png" alt="usericon" />
+        <input type="text" placeholder="이름" />
+      </div>
+      <div>
+        <img src="./20240119_172838.png" alt="calendaricon" />
+        <input type="text" placeholder="생년월일 8자리" />
+      </div>
+      <div>
+        <img src="./20240119_172850.png" alt="" />
+        <select aria-placeholder="통신사 선택">
+          <option value="skt">SKT</option>
+          <option value="kt">KT</option>
+          <option value="lg u+">LG U+</option>
+          <option value="skt 알뜰폰">SKT 알뜰폰</option>
+          <option value="kt 알뜰폰">KT 알뜰폰</option>
+          <option value="lg u+알뜰폰">LG U+알뜰폰</option>
+        </select>
+      </div>
+      <div>
+        <ul>
+          <li>
+            <input type="radio" id="gender1" name="gender" value="male" />
+            <label for="gender1">남자</label>
+          </li>
+          <li class="radio_item">
+            <input type="radio" id="gender2" name="gender" value="female" />
+            <label for="gender2">여자</label>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <input
+              type="radio"
+              id="citizenship1"
+              name="citizenship"
+              value="local"
+            />
+            <label for="citizenship1">내국인</label>
+          </li>
+          <li>
+            <input
+              type="radio"
+              id="citizenship2"
+              name="citizenship"
+              value="foreigner"
+            />
+            <label for="citizenship2">외국인</label>
+          </li>
+        </ul>
+        <div>
+          <img src="./20240119_172900.png" alt="phoneicon" />
+          <input type="text" placeholder="휴대전화번호" />
+        </div>
+      </div>
+      <div>
+        <input type="checkbox" />
+        <label>
+          <em>[필수]</em>
+          <span><strong>인증 약관 전체동의</strong></span>
+        </label>
+      </div>
+    </div>
+    <button
+      style="padding: 14px 200px; background-color: #09aa5c;"
+      type="submit"
+    >
+      인증요청
+    </button>
+  </body>
+</html>
